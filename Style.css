@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #d0eaf0;
+
+}
+
+/* Navigation */
+
+#NavBar {
+    display: flex;
+    align-items: right;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #d0eaf0;
+
+
+}
+
+.logo {
+    margin-left: 60px;
+}
+
+nav a:hover {
+
+    color: rgb(10, 39, 230);
+}
+
+
+nav {
+    flex: 1;
+    margin-right: 100px;
+    margin-left: 350px;
+
+
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 20px;
+}
+
+#MenuItem a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: 0.6s;
+
+}
+
+/* MainBanner */
+#MainBanner {
+    background-color: #d0eaf0;
+    margin-top: 100px;
+    display: flex;
+
+}
+
+#TagLine {
+    color: black;
+    margin: 260px;
+    width: 1000px;
+    font-size: 18px;
+}
+
+#TagLine h3 {
+    color: green;
+}
+
+#DemoButton {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #E8C872;
+    width: 260px;
+    padding: 16px;
+    border-radius: 20px;
+
+}
+
+#DemoButton a {
+    font-size: 16px;
+    padding: 10px;
+    color: black;
+    transition: 0.6s;
+
+
+}
+
+#DemoButton a:hover {
+    color: rgb(119, 124, 118);
+
+}
+
+
+#BannerImage {
+    margin-bottom: 0;
+}
+
+/*AboutUs*/
+#AboutUs {
+    display: flex;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 200px;
+    font-size: 18px;
+
+}
+
+.AboutDescription h3 {
+    color: green;
+
+
+}
+
+#DemoButton2 {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #E8C872;
+    width: 160px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#DemoButton2 a {
+    font-size: 16px;
+    padding: 10px;
+    color: black;
+    transition: 0.6s;
+
+
+}
+
+#DemoButton2 a:hover {
+    color: rgb(119, 124, 118);
+
+}
+
+
+
+/*Featured product*/
+
+#FeaturedProduct {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 30px;
+
+}
+
+
+.FeaturedHeading {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.ProductBox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    transition: transform 0.5s;
+    background-color: rgb(205, 228, 228);
+
+}
+
+.product img {
+    width: 100px;
+    margin-left: 30%;
+
+}
+
+
+/*footer*/
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+
+.footer h4,
+h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.ancho {
+    color: white;
+}
+
+
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-col-1 {
+    padding-left: 30px;
+    min-width: 180px;
+    margin-bottom: 20px;
+    flex-basis: 16%;
+    background-color: white;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3,
+.footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+
+}
+
+#Follow-section {
+    margin-left: 86px;
+}
+
+.row1 {
+    display: flex;
+
+}
+
+.Follow-Image img {
+    width: 30px;
+    margin-left: 20px;
+}
+
+.footer-col-4 ul {
+    display: flex;
+
+}
+
+ul img {
+    list-style-type: none;
+    width: 30px;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {}
